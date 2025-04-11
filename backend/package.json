@@ -9,7 +9,8 @@
   "scripts": {
     "start": "node api/index.js",
     "dev": "nodemon api/index.js",
-    "vercel-build": "echo 'Building...'"
+    "build": "echo 'Backend build completed'",
+    "vercel-build": "npm install"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
